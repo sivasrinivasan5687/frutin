@@ -4363,3 +4363,100 @@ a.text-theme:hover,
 	}
 }
 
+/*------------------- 4.4. Breadcumb  -------------------*/
+.breadcumb-menu {
+	max-width: 100%;
+	padding: 0;
+	margin: 25px 0 -0.5em 0;
+	list-style-type: none;
+	position: relative;
+}
+
+.breadcumb-menu li {
+	display: inline-block;
+	margin-right: 3px;
+	padding-right: 3px;
+	list-style: none;
+	position: relative;
+}
+
+.breadcumb-menu li:after {
+	content: "\f054";
+	position: relative;
+	margin-left: 6px;
+	font-weight: 500;
+	font-size: 15px;
+	color: inherit;
+	font-family: var(--icon-font);
+}
+
+.breadcumb-menu li:last-child {
+	padding-right: 0;
+	margin-right: 0;
+	color: var(--theme-color);
+}
+
+.breadcumb-menu li:last-child:after {
+	display: none;
+}
+
+.breadcumb-menu li,
+.breadcumb-menu a,
+.breadcumb-menu span {
+	white-space: normal;
+	color: inherit;
+	word-break: break-word;
+	font-weight: 600;
+	font-size: 18px;
+	color: var(--title-color);
+}
+
+.breadcumb-title {
+	margin: -0.14em 0 -0.22em 0;
+	line-height: 1.1;
+	font-weight: 600;
+}
+
+@media (min-width: 1300px) {
+	.breadcumb-title {
+		font-size: 52px;
+	}
+}
+
+.breadcumb-wrapper {
+	background-color: var(--smoke-color2);
+	padding: 170px 0 170px 0;
+	overflow: hidden;
+	text-align: center;
+	margin-top: -10px;
+}
+
+/* Large devices */
+@media (max-width: 1199px) {
+	.breadcumb-wrapper {
+		padding: 140px 0 140px 0;
+	}
+	.breadcumb-menu {
+		margin: 20px 0 -0.5em 0;
+	}
+	.breadcumb-menu li,
+	.breadcumb-menu a,
+	.breadcumb-menu span {
+		font-size: 16px;
+	}
+}
+
+/* Medium devices */
+@media (max-width: 991px) {
+	.breadcumb-wrapper {
+		padding: 110px 0 110px 0;
+	}
+}
+
+/* Extra small devices */
+@media (max-width: 575px) {
+	.breadcumb-title {
+		font-size: 34px;
+	}
+}
+
