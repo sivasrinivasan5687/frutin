@@ -1,0 +1,146 @@
+@import url("./common.css");
+
+/*------------------- 4.00. Contact  -------------------*/
+/* Contact Page ---------------------------------- */
+.contact-feature {
+	background-color: var(--white-color);
+	padding: 20px 10px 20px 20px;
+	box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.08);
+	border-radius: 20px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	gap: 15px;
+}
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+	.contact-feature {
+		padding: 14px 10px 14px 14px;
+	}
+}
+
+.contact-feature .box-icon {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 40px;
+	color: var(--white-color);
+	background-color: var(--theme-color);
+	border-radius: 12px;
+	text-align: center;
+}
+
+.contact-feature .box-title {
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 4px;
+	/* Large devices */
+}
+
+@media (max-width: 1199px) {
+	.contact-feature .box-title {
+		font-size: 22px;
+	}
+}
+
+.contact-feature .box-text {
+	line-height: 24px;
+	max-width: 240px;
+}
+
+.contact-feature .box-text a {
+	display: block;
+	max-width: -webkit-fit-content;
+	max-width: -moz-fit-content;
+	max-width: fit-content;
+	color: inherit;
+}
+
+.contact-feature .box-text a:hover {
+	color: var(--theme-color);
+}
+
+.contact-feature .th-social a {
+	--icon-size: 40px;
+	border-radius: 10px;
+	/* Medium Large devices */
+}
+
+.contact-feature .th-social a:not(:hover) {
+	color: var(--title-color);
+}
+
+@media (max-width: 1299px) {
+	.contact-feature .th-social a:not(:last-child) {
+		margin-right: 3px;
+	}
+}
+
+.contact-form {
+	box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.08);
+	border-radius: 20px;
+	background-color: var(--white-color);
+	padding: 60px;
+	text-align: center;
+	/* Medium devices */
+	/* Extra small devices */
+}
+
+.contact-form .sec-title {
+	margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+	.contact-form {
+		padding: 40px;
+	}
+}
+
+@media (max-width: 575px) {
+	.contact-form {
+		padding: 40px 20px;
+	}
+}
+
+.rounded-20 {
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.form-text {
+	font-size: 16px;
+}
+
+.contact-map {
+	line-height: 0px;
+	max-width: 1520px;
+	margin: 0 auto;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.contact-map iframe {
+	width: 100%;
+	height: 670px;
+	border-radius: 30px;
+	/* Large devices */
+	/* Medium devices */
+}
+
+@media (max-width: 1199px) {
+	.contact-map iframe {
+		height: 400px;
+	}
+}
+
+@media (max-width: 991px) {
+	.contact-map iframe {
+		height: 350px;
+		border-radius: 20px;
+	}
+}
