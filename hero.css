@@ -27,6 +27,11 @@
 }
 /*------------------- 4.8. Hero Area  -------------------*/
 /* Hero Global ---------------------------------- */
+
+a{
+	text-decoration: none;
+}
+
 .th-hero-wrapper {
 	position: relative;
 	z-index: 2;
@@ -594,4 +599,50 @@
 	-webkit-transform: scaleX(1) scaleY(1);
 	-ms-transform: scaleX(1) scaleY(1);
 	transform: scaleX(1) scaleY(1);
+}
+
+.sec-title {
+	margin-bottom: calc(var(--section-title-space) - 11px);
+	margin-top: -0.2em;
+	text-transform: capitalize;
+}
+
+.sub-title {
+	display: block;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: var(--style-font);
+	letter-spacing: 0.08em;
+	color: var(--theme-color2);
+	margin-bottom: 24px;
+	text-transform: capitalize;
+	line-height: 24px;
+	margin-top: -0.34em;
+}
+
+.sub-title:has(img) {
+	margin-top: 0;
+}
+
+.sub-title.h4 {
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 1;
+	margin-top: -0.14em;
+}
+
+.sub-title img {
+	margin: -11px 10px 0 0;
+}
+
+.sub-title i {
+	font-size: 32px;
+	margin-right: 10px;
+	/* Medium devices */
+}
+
+@media (max-width: 991px) {
+	.sub-title i {
+		font-size: 24px;
+	}
 }
