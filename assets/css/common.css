@@ -28,8 +28,6 @@
 
 /*------------------- 1.5. Typography -------------------*/
 
-/* mobile nav menu */
-
 html,
 body {
 	scroll-behavior: auto !important;
@@ -1093,7 +1091,7 @@ textarea.is-invalid {
     03. Utilities
 ==================================*/
 /*------------------- 3.1. Preloader -------------------*/
-.preloader {
+/* .preloader {
 	position: fixed;
 	left: 0;
 	right: 0;
@@ -1225,7 +1223,7 @@ textarea.is-invalid {
 		-webkit-transform: scale(0) rotate(360deg) translate3d(0, 0, 1px);
 		transform: scale(0) rotate(360deg) translate3d(0, 0, 1px);
 	}
-}
+} */
 
 /*------------------- 3.2. Buttons -------------------*/
 .th-btn {
