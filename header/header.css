@@ -1,34 +1,5 @@
-:root {
-	--theme-color: #017d03;
-	--theme-color2: #ff9c00;
-	--title-color: #080809;
-	--body-color: #54595f;
-	--smoke-color: #f7f7f7;
-	--smoke-color2: #f5f7eb;
-	--black-color: #000000;
-	--black-color2: #080e1c;
-	--gray-color: #bdbdbd;
-	--white-color: #ffffff;
-	--light-color: #bdbdbd;
-	--yellow-color: #ffb539;
-	--success-color: #28a745;
-	--error-color: #dc3545;
-	--th-border-color: #d9d9d9;
-	--title-font: "Akshar", sans-serif;
-	--body-font: "DM Sans", sans-serif;
-	--style-font: "Shadows Into Light Two", cursive;
-	--icon-font: "Font Awesome 6 Pro";
-	--main-container: 1220px;
-	--container-gutters: 24px;
-	--section-space: 120px;
-	--section-space-mobile: 80px;
-	--section-title-space: 60px;
-	--ripple-ani-duration: 5s;
-}
-/*------------------- 2.5. Mobile Menu -------------------*/
-
-a{
-    text-decoration: none;
+a {
+	text-decoration: none;
 }
 .th-menu-wrapper {
 	position: fixed;
@@ -280,7 +251,7 @@ a{
 
 .main-menu > ul > li > a {
 	padding: 37px 0;
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .main-menu > ul > li > a:hover {
@@ -298,17 +269,11 @@ a{
 	position: relative;
 }
 
-
 @media (max-width: 1500px) {
 	.main-menu > ul > li {
 		margin: 0 13px;
 	}
 }
-
-
-
-
-
 
 .simple-icon {
 	border: none;
@@ -451,7 +416,6 @@ a{
 	color: var(--title-color);
 }
 
-
 /* Header 1 ---------------------------------- */
 .header-layout1 {
 	position: relative;
@@ -504,9 +468,7 @@ a{
 	}
 }
 
-
-
- /* shop now button css */
+/* shop now button css */
 .th-btn {
 	position: relative;
 	z-index: 2;

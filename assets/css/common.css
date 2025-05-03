@@ -311,8 +311,6 @@ h6 {
 	}
 }
 
-/*------------------- 1.6. Extend -------------------*/
-/*------------------- 1.7. Wordpress Default -------------------*/
 /*=================================
     02. Reset
 ==================================*/
@@ -4458,9 +4456,7 @@ a.text-theme:hover,
 	}
 }
 
-
-
-	/*=================================
+/*=================================
     04. Template Style
 ==================================*/
 /*------------------- 4.1. Widget  -------------------*/
@@ -6080,8 +6076,6 @@ ol.wp-block-rss {
 	}
 }
 
-
-
 /*------------------- 4.3. Footer  -------------------*/
 .footer-wrapper {
 	--border-color: rgba(255, 255, 255, 0.3);
@@ -6494,59 +6488,58 @@ ol.wp-block-rss {
 }
 
 .th-widget-contact {
-    max-width: 280px;
+	max-width: 280px;
 }
- 
+
 .info-box {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-bottom: 30px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 30px;
 }
- 
+
 .info-box:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
- 
+
 .info-box_icon {
-    width: 30px;
-    height: 30px;
-    min-width: 30px;
-    line-height: 32px;
-    font-size: 14px;
-    background-color: rgba(255, 255, 255, 0.08);
-    color: var(--theme-color2);
-    border-radius: 6px;
-    text-align: center;
-    margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	min-width: 30px;
+	line-height: 32px;
+	font-size: 14px;
+	background-color: rgba(255, 255, 255, 0.08);
+	color: var(--theme-color2);
+	border-radius: 6px;
+	text-align: center;
+	margin-right: 10px;
 }
- 
+
 .info-box_text {
-    display: block;
-    color: var(--body-color);
-    margin-top: -0.45em;
-    margin-bottom: -0.45em;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
+	display: block;
+	color: var(--body-color);
+	margin-top: -0.45em;
+	margin-bottom: -0.45em;
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-self: center;
 }
- 
+
 .info-box_link {
-    display: inline-block;
-    color: var(--body-color);
+	display: inline-block;
+	color: var(--body-color);
 }
- 
+
 .info-box_link:hover {
-    color: var(--theme-color);
+	color: var(--theme-color);
 }
- 
+
 /* footer end */
 
 .main-menu > ul > li > a.active {
 	color: var(--theme-color);
 }
-
 
 .mega-hover {
 	position: relative;
@@ -6594,4 +6587,3 @@ ol.wp-block-rss {
 	-webkit-transition: all 900ms linear;
 	transition: all 900ms linear;
 }
-
